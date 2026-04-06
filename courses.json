@@ -1,0 +1,518 @@
+[
+  {
+    "": "className",
+    "__1": "courseNumber",
+    "__2": "credits",
+    "__3": "department"
+  },
+  {
+    "": "ORGANIZATIONAL COMMUNICATION",
+    "__1": 1102,
+    "__2": 3,
+    "__3": "COMMRC"
+  },
+  {
+    "": "COMPOSING DIGITAL MEDIA",
+    "__1": "0610",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "CORPORATE STORYTELLING",
+    "__1": 1104,
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "INTRODUCTION TO TECHNICAL WRITING",
+    "__1": "0600",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "ORGANIZATIONAL PSYCHOLOGY",
+    "__1": 1635,
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "TOPICS IN NON-FICTION: ELECTRONIC MEDIA",
+    "__1": 1403,
+    "__2": 3,
+    "__3": "ENGWRT"
+  },
+  {
+    "": "WEB SITE DESIGN AND DEVELOPMENT",
+    "__1": "0134",
+    "__2": 3,
+    "__3": "CS"
+  },
+  {
+    "": "DIGITAL NARRATIVE AND INTERACTIVE DESIGN",
+    "__1": 1201,
+    "__2": 4,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "WORDS AND IMAGES",
+    "__1": "0354",
+    "__2": 3,
+    "__3": "ENGLIT"
+  },
+  {
+    "": "INTRODUCTION TO POPULAR CULTURE",
+    "__1": "0550",
+    "__2": 3,
+    "__3": "ENGLIT"
+  },
+  {
+    "": "MEDIA LITERACY: WRITING AND READING YOUR WAY THROUGH THE DIGITAL LANDSCAPE",
+    "__1": 1377,
+    "__2": 3,
+    "__3": "ENGWRT"
+  },
+  {
+    "": "INTRODUCTION TO CONTEMPORARY ART",
+    "__1": "0090",
+    "__2": 3,
+    "__3": "HAA"
+  },
+  {
+    "": "VISUAL THINKING",
+    "__1": "0110",
+    "__2": 3,
+    "__3": "SA"
+  },
+  {
+    "": "DIGITAL STUDIO: IMAGING",
+    "__1": 1270,
+    "__2": 3,
+    "__3": "SA"
+  },
+  {
+    "": "GENDER AND THE DIGITAL",
+    "__1": 1210,
+    "__2": 3,
+    "__3": "GSWS"
+  },
+  {
+    "": "USER RESEARCH AND REPORTING",
+    "__1": 1430,
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "TECHNOLOGIES OF THE BODY",
+    "__1": "0585",
+    "__2": 3,
+    "__3": "ENGFLM"
+  },
+  {
+    "": "PRACTICAL ISSUES IN DISABILITY",
+    "__1": 1290,
+    "__2": 3,
+    "__3": "REHSCI"
+  },
+  {
+    "": "QUEER AND FEMINIST MEDIA ART",
+    "__1": 1610,
+    "__2": 3,
+    "__3": "GSWS"
+  },
+  {
+    "": "INTRODUCTION TO INFORMATION, SYSTEMS AND SOCIETY",
+    "__1": "0010",
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "HUMAN-CENTERED SYSTEMS",
+    "__1": "0410",
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "DATABASE MANAGEMENT CONCEPTS AND APPLICATIONS",
+    "__1": 1500,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "GRAPHICS",
+    "__1": 1014,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "DESIGN OF INFORMATION SYSTEMS",
+    "__1": 1025,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "GOING DIGITAL: TRANSFORMATIONAL CHANGE",
+    "__1": 1031,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "WEB PROGRAMMING",
+    "__1": 1059,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "USER-CENTERED DESIGN",
+    "__1": 1420,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "SECURITY AND PRIVACY",
+    "__1": 1600,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "IT PROJECT MANAGEMENT",
+    "__1": 1460,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "WRITTEN PROFESSIONAL COMMUNICATION",
+    "__1": "0400",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "THEORIES OF LEADERSHIP",
+    "__1": 1100,
+    "__2": 3,
+    "__3": "LDRSHP"
+  },
+  {
+    "": "COMMUNICATION ETHICS",
+    "__1": 1161,
+    "__2": 3,
+    "__3": "COMMRC"
+  },
+  {
+    "": "PHILOSOPHY AND PUBLIC ISSUES",
+    "__1": "0350",
+    "__2": 3,
+    "__3": "PHIL"
+  },
+  {
+    "": "COMMUNICATION AND SOCIETY",
+    "__1": "0300",
+    "__2": 3,
+    "__3": "COMMRC"
+  },
+  {
+    "": "NONVERBAL COMMUNICATION",
+    "__1": 1109,
+    "__2": 3,
+    "__3": "COMMRC"
+  },
+  {
+    "": "LANGUAGE OF BUSINESS AND INDUSTRY",
+    "__1": 1100,
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "INTRODUCTION TO PSYCHOLOGY",
+    "__1": "0010",
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "SOCIAL PERCEPTION AND COGNITION",
+    "__1": 1135,
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "CULTURAL ANTHROPOLOGY: OVERVIEW",
+    "__1": "0701",
+    "__2": 3,
+    "__3": "ANTH"
+  },
+  {
+    "": "INTRODUCTION TO SOCIOLOGY",
+    "__1": "0100",
+    "__2": 3,
+    "__3": "SOC"
+  },
+  {
+    "": "SOCIAL THEORY",
+    "__1": "0150",
+    "__2": 3,
+    "__3": "SOC"
+  },
+  {
+    "": "ORGANIZATIONAL THEORY & BEHAVIOR",
+    "__1": 1009,
+    "__2": 3,
+    "__3": "HRS"
+  },
+  {
+    "": "CYBERCRIME",
+    "__1": 1520,
+    "__2": 3,
+    "__3": "LCJS"
+  },
+  {
+    "": "MASS COMMUNICATION AND SOCIETY",
+    "__1": "0320",
+    "__2": 3,
+    "__3": "COMMRC"
+  },
+  {
+    "": "MEDIA RELATIONS",
+    "__1": 1182,
+    "__2": 3,
+    "__3": "COMMRC"
+  },
+  {
+    "": "WRITING FOR THE PUBLIC",
+    "__1": "0420",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "PERSAUSIVE WRITING IN ADVERTISING",
+    "__1": "0515",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "TOPICS IN PUBLIC/PROFESSIONAL WRITING",
+    "__1": "0550",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "WRITING ARGUMENTS",
+    "__1": "0560",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "PROFESSIONAL USES OF SOCIAL MEDIA",
+    "__1": 1112,
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "MANAGING PROJECTS AND CONTRACTS",
+    "__1": 1315,
+    "__2": 3,
+    "__3": "PUBSRV"
+  },
+  {
+    "": "PRINCIPLES OF BEHAVIOR MODIFICATION",
+    "__1": 1255,
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "RESEARCH WRITING",
+    "__1": "0450",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "WRITTEN PROFESSIONAL COMMUNICATION: TOPICS IN DIVERSITY",
+    "__1": "0401",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "WRITING WITH DATA",
+    "__1": "0521",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "LAW, ETHICS AND PUBLIC POLICY IN THE MASS MEDIA",
+    "__1": 1455,
+    "__2": 3,
+    "__3": "PUBSRV"
+  },
+  {
+    "": "MARKETING FUNDAMENTALS",
+    "__1": 1940,
+    "__2": 3,
+    "__3": "BUSERV"
+  },
+  {
+    "": "THEORIES OF PERSUASION",
+    "__1": 1111,
+    "__2": 3,
+    "__3": "COMMRC"
+  },
+  {
+    "": "COMPOSING DIGITAL MEDIA",
+    "__1": "0610",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "WRITING FOR CHANGE",
+    "__1": "0641",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "HISTORY AND ETHICS OF ADVERTISING AND PUBLIC RELATIONS",
+    "__1": 1120,
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "INTRO TO AUDIO STORYTELLING",
+    "__1": "0710",
+    "__2": 3,
+    "__3": "ENGWRT"
+  },
+  {
+    "": "INTRODUCTION TO SOCIAL PSYCHOLOGY",
+    "__1": "0105",
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "MASS MEDIA",
+    "__1": "0490",
+    "__2": 3,
+    "__3": "SOC"
+  },
+  {
+    "": "INTEGRATING WRITING AND DESIGN",
+    "__1": "0520",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "CRITICAL MAKING",
+    "__1": "0712",
+    "__2": 3,
+    "__3": "ENGLIT"
+  },
+  {
+    "": "PROJECTS IN DIGITAL COMPOSITION",
+    "__1": 1130,
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "WRITING MACHINES",
+    "__1": 1207,
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "STORYBOARDING",
+    "__1": "0591",
+    "__2": 3,
+    "__3": "ENGFLM"
+  },
+  {
+    "": "VIRTUAL REALITY",
+    "__1": 1355,
+    "__2": 3,
+    "__3": "ENGLIT"
+  },
+  {
+    "": "ANALYSIS OF INFORMATION SYSTEMS",
+    "__1": 1400,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "IMMERSIVE MEDIA TECHNOLOGIES",
+    "__1": 1470,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "INTRODUCTION TO INFORMATION SECURITY",
+    "__1": 1049,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "WRITING FOR ACCESSIBILITY",
+    "__1": "0545",
+    "__2": 3,
+    "__3": "ENGCMP"
+  },
+  {
+    "": "COGNITIVE PSYCHOLOGY FOR NON-MAJORS",
+    "__1": "0421",
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "SENSATION & PERCEPTION",
+    "__1": "0510",
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "LEARNING & MOTIVATION",
+    "__1": "0405",
+    "__2": 3,
+    "__3": "PSY"
+  },
+  {
+    "": "USER EXPERIENCE ENGINEERING",
+    "__1": 1430,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "INFORMATION VISUALIZATION",
+    "__1": 1520,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "SOCIAL COMPUTING",
+    "__1": 1440,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "GAME DESIGN",
+    "__1": 1450,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "NETWORK & WEB DATA TECHNOLOGIES",
+    "__1": 1570,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "FATE IN AI",
+    "__1": 2185,
+    "__2": 3,
+    "__3": "ISSP"
+  },
+  {
+    "": "SPECIAL TOPICS: AI LITERACY",
+    "__1": 1499,
+    "__2": 3,
+    "__3": "INFSCI"
+  },
+  {
+    "": "INTERFACE DESIGN METHODOLOGY",
+    "__1": 1635,
+    "__2": 3,
+    "__3": "CS"
+  }
+]

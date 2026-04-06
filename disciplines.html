@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disciplines — Pitt HCI Course Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-lockup">
+    <div class="lockup-pitt">PITT</div>
+    <div class="lockup-middle">
+      <span class="lockup-ux">UX</span>
+      <span class="lockup-slash">/</span>
+      <span class="lockup-hci">HCI</span>
+    </div>
+    <div class="lockup-course">Course Hub</div>
+  </div>
+
+  <img src="cathy.svg" alt="Pitt HCI Cathedral Logo" class="hero-logo">
+
+  <div class="hero-right">
+    <a class="hnav-link" href="index.html">HCI @ Pitt</a>
+    <a class="hnav-link active" href="disciplines.html">Disciplines</a>
+    <div class="hero-divider"></div>
+    <div class="t-line">Browse HCI/UX fields of practice</div>
+    <div class="t-line">See relevant skills and sample courses</div>
+    <div class="t-line">Find your area of focus</div>
+  </div>
+</div>
+
+<main>
+  <div class="hub-container">
+    <div class="back-link">
+      <a href="index.html">← Back</a>
+    </div>
+    <div class="disciplines-intro">
+      <h2>Explore by Discipline</h2>
+      <p>Select a field to see skills, competencies, and related coursework at Pitt.</p>
+    </div>
+
+    <div class="field-grid" id="fieldGrid"></div>
+
+    <div class="field-dropdown" id="fieldDropdown">
+      <div class="field-dropdown-inner" id="dropdownInner">
+        <button class="dropdown-close" id="dropdownClose">✕</button>
+        <div class="dropdown-text">
+          <h3 id="ddTitle"></h3>
+          <p id="ddDesc"></p>
+          <div class="skill-tags" id="ddTags"></div>
+        </div>
+        <div class="dropdown-courses">
+          <h4>Related Courses</h4>
+          <ul id="ddCourses"></ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -11,17 +11,15 @@
 
 <div class="hero">
   <div class="hero-lockup">
-    <div class="lockup-pitt">THIS PAGE IS</div>
+    <div class="lockup-pitt">PITT</div>
     <div class="lockup-middle">
-      <span class="lockup-ux">VERY</span>
+      <span class="lockup-ux">UX</span>
       <span class="lockup-slash">/</span>
-      <span class="lockup-hci">UGLY RIGHT NOW</span>
+      <span class="lockup-hci">HCI</span>
     </div>
-    <div class="lockup-course">Sorry I am working on it!</div>
+    <div class="lockup-course">Disciplines</div>
   </div>
-
   <img src="cathy.svg" alt="Pitt HCI Cathedral Logo" class="hero-logo">
-
   <div class="hero-right">
     <a class="hnav-link" href="index.html">HCI @ Pitt</a>
     <a class="hnav-link active" href="disciplines.html">Disciplines</a>
@@ -34,27 +32,20 @@
 
 <main>
   <div class="hub-container">
-    <div class="back-link">
-      <a href="index.html">← Back</a>
-    </div>
-    <div class="disciplines-intro">
-      <h2>Explore by Discipline</h2>
-      <p>Select a field to see skills, competencies, and related coursework at Pitt.</p>
-    </div>
 
-    <div class="field-grid" id="fieldGrid"></div>
+    <!-- Button pill row -->
+    <div class="disc-pill-row" id="discPillRow"></div>
 
-    <div class="field-dropdown" id="fieldDropdown">
-      <div class="field-dropdown-inner" id="dropdownInner">
-        <button class="dropdown-close" id="dropdownClose">✕</button>
-        <div class="dropdown-text">
-          <h3 id="ddTitle"></h3>
-          <p id="ddDesc"></p>
-          <div class="skill-tags" id="ddTags"></div>
-        </div>
-        <div class="dropdown-courses">
+    <!-- Detail panel: hidden until a pill is selected -->
+    <div class="disc-detail" id="discDetail" style="display:none;">
+      <div class="disc-detail-icon" id="discDetailIcon"></div>
+      <div class="disc-detail-body">
+        <h2 id="discDetailTitle"></h2>
+        <p id="discDetailDesc"></p>
+        <div class="disc-skills" id="discDetailSkills"></div>
+        <div class="disc-courses">
           <h4>Related Courses</h4>
-          <ul id="ddCourses"></ul>
+          <ul id="discDetailCourses"></ul>
         </div>
       </div>
     </div>

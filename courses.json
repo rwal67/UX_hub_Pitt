@@ -1,518 +1,728 @@
-[
-  {
-    "": "className",
-    "__1": "courseNumber",
-    "__2": "credits",
-    "__3": "department"
-  },
-  {
-    "": "ORGANIZATIONAL COMMUNICATION",
-    "__1": 1102,
-    "__2": 3,
-    "__3": "COMMRC"
-  },
-  {
-    "": "COMPOSING DIGITAL MEDIA",
-    "__1": "0610",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "CORPORATE STORYTELLING",
-    "__1": 1104,
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "INTRODUCTION TO TECHNICAL WRITING",
-    "__1": "0600",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "ORGANIZATIONAL PSYCHOLOGY",
-    "__1": 1635,
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "TOPICS IN NON-FICTION: ELECTRONIC MEDIA",
-    "__1": 1403,
-    "__2": 3,
-    "__3": "ENGWRT"
-  },
-  {
-    "": "WEB SITE DESIGN AND DEVELOPMENT",
-    "__1": "0134",
-    "__2": 3,
-    "__3": "CS"
-  },
-  {
-    "": "DIGITAL NARRATIVE AND INTERACTIVE DESIGN",
-    "__1": 1201,
-    "__2": 4,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "WORDS AND IMAGES",
-    "__1": "0354",
-    "__2": 3,
-    "__3": "ENGLIT"
-  },
-  {
-    "": "INTRODUCTION TO POPULAR CULTURE",
-    "__1": "0550",
-    "__2": 3,
-    "__3": "ENGLIT"
-  },
-  {
-    "": "MEDIA LITERACY: WRITING AND READING YOUR WAY THROUGH THE DIGITAL LANDSCAPE",
-    "__1": 1377,
-    "__2": 3,
-    "__3": "ENGWRT"
-  },
-  {
-    "": "INTRODUCTION TO CONTEMPORARY ART",
-    "__1": "0090",
-    "__2": 3,
-    "__3": "HAA"
-  },
-  {
-    "": "VISUAL THINKING",
-    "__1": "0110",
-    "__2": 3,
-    "__3": "SA"
-  },
-  {
-    "": "DIGITAL STUDIO: IMAGING",
-    "__1": 1270,
-    "__2": 3,
-    "__3": "SA"
-  },
-  {
-    "": "GENDER AND THE DIGITAL",
-    "__1": 1210,
-    "__2": 3,
-    "__3": "GSWS"
-  },
-  {
-    "": "USER RESEARCH AND REPORTING",
-    "__1": 1430,
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "TECHNOLOGIES OF THE BODY",
-    "__1": "0585",
-    "__2": 3,
-    "__3": "ENGFLM"
-  },
-  {
-    "": "PRACTICAL ISSUES IN DISABILITY",
-    "__1": 1290,
-    "__2": 3,
-    "__3": "REHSCI"
-  },
-  {
-    "": "QUEER AND FEMINIST MEDIA ART",
-    "__1": 1610,
-    "__2": 3,
-    "__3": "GSWS"
-  },
-  {
-    "": "INTRODUCTION TO INFORMATION, SYSTEMS AND SOCIETY",
-    "__1": "0010",
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "HUMAN-CENTERED SYSTEMS",
-    "__1": "0410",
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "DATABASE MANAGEMENT CONCEPTS AND APPLICATIONS",
-    "__1": 1500,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "GRAPHICS",
-    "__1": 1014,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "DESIGN OF INFORMATION SYSTEMS",
-    "__1": 1025,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "GOING DIGITAL: TRANSFORMATIONAL CHANGE",
-    "__1": 1031,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "WEB PROGRAMMING",
-    "__1": 1059,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "USER-CENTERED DESIGN",
-    "__1": 1420,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "SECURITY AND PRIVACY",
-    "__1": 1600,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "IT PROJECT MANAGEMENT",
-    "__1": 1460,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "WRITTEN PROFESSIONAL COMMUNICATION",
-    "__1": "0400",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "THEORIES OF LEADERSHIP",
-    "__1": 1100,
-    "__2": 3,
-    "__3": "LDRSHP"
-  },
-  {
-    "": "COMMUNICATION ETHICS",
-    "__1": 1161,
-    "__2": 3,
-    "__3": "COMMRC"
-  },
-  {
-    "": "PHILOSOPHY AND PUBLIC ISSUES",
-    "__1": "0350",
-    "__2": 3,
-    "__3": "PHIL"
-  },
-  {
-    "": "COMMUNICATION AND SOCIETY",
-    "__1": "0300",
-    "__2": 3,
-    "__3": "COMMRC"
-  },
-  {
-    "": "NONVERBAL COMMUNICATION",
-    "__1": 1109,
-    "__2": 3,
-    "__3": "COMMRC"
-  },
-  {
-    "": "LANGUAGE OF BUSINESS AND INDUSTRY",
-    "__1": 1100,
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "INTRODUCTION TO PSYCHOLOGY",
-    "__1": "0010",
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "SOCIAL PERCEPTION AND COGNITION",
-    "__1": 1135,
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "CULTURAL ANTHROPOLOGY: OVERVIEW",
-    "__1": "0701",
-    "__2": 3,
-    "__3": "ANTH"
-  },
-  {
-    "": "INTRODUCTION TO SOCIOLOGY",
-    "__1": "0100",
-    "__2": 3,
-    "__3": "SOC"
-  },
-  {
-    "": "SOCIAL THEORY",
-    "__1": "0150",
-    "__2": 3,
-    "__3": "SOC"
-  },
-  {
-    "": "ORGANIZATIONAL THEORY & BEHAVIOR",
-    "__1": 1009,
-    "__2": 3,
-    "__3": "HRS"
-  },
-  {
-    "": "CYBERCRIME",
-    "__1": 1520,
-    "__2": 3,
-    "__3": "LCJS"
-  },
-  {
-    "": "MASS COMMUNICATION AND SOCIETY",
-    "__1": "0320",
-    "__2": 3,
-    "__3": "COMMRC"
-  },
-  {
-    "": "MEDIA RELATIONS",
-    "__1": 1182,
-    "__2": 3,
-    "__3": "COMMRC"
-  },
-  {
-    "": "WRITING FOR THE PUBLIC",
-    "__1": "0420",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "PERSAUSIVE WRITING IN ADVERTISING",
-    "__1": "0515",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "TOPICS IN PUBLIC/PROFESSIONAL WRITING",
-    "__1": "0550",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "WRITING ARGUMENTS",
-    "__1": "0560",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "PROFESSIONAL USES OF SOCIAL MEDIA",
-    "__1": 1112,
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "MANAGING PROJECTS AND CONTRACTS",
-    "__1": 1315,
-    "__2": 3,
-    "__3": "PUBSRV"
-  },
-  {
-    "": "PRINCIPLES OF BEHAVIOR MODIFICATION",
-    "__1": 1255,
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "RESEARCH WRITING",
-    "__1": "0450",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "WRITTEN PROFESSIONAL COMMUNICATION: TOPICS IN DIVERSITY",
-    "__1": "0401",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "WRITING WITH DATA",
-    "__1": "0521",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "LAW, ETHICS AND PUBLIC POLICY IN THE MASS MEDIA",
-    "__1": 1455,
-    "__2": 3,
-    "__3": "PUBSRV"
-  },
-  {
-    "": "MARKETING FUNDAMENTALS",
-    "__1": 1940,
-    "__2": 3,
-    "__3": "BUSERV"
-  },
-  {
-    "": "THEORIES OF PERSUASION",
-    "__1": 1111,
-    "__2": 3,
-    "__3": "COMMRC"
-  },
-  {
-    "": "COMPOSING DIGITAL MEDIA",
-    "__1": "0610",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "WRITING FOR CHANGE",
-    "__1": "0641",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "HISTORY AND ETHICS OF ADVERTISING AND PUBLIC RELATIONS",
-    "__1": 1120,
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "INTRO TO AUDIO STORYTELLING",
-    "__1": "0710",
-    "__2": 3,
-    "__3": "ENGWRT"
-  },
-  {
-    "": "INTRODUCTION TO SOCIAL PSYCHOLOGY",
-    "__1": "0105",
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "MASS MEDIA",
-    "__1": "0490",
-    "__2": 3,
-    "__3": "SOC"
-  },
-  {
-    "": "INTEGRATING WRITING AND DESIGN",
-    "__1": "0520",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "CRITICAL MAKING",
-    "__1": "0712",
-    "__2": 3,
-    "__3": "ENGLIT"
-  },
-  {
-    "": "PROJECTS IN DIGITAL COMPOSITION",
-    "__1": 1130,
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "WRITING MACHINES",
-    "__1": 1207,
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "STORYBOARDING",
-    "__1": "0591",
-    "__2": 3,
-    "__3": "ENGFLM"
-  },
-  {
-    "": "VIRTUAL REALITY",
-    "__1": 1355,
-    "__2": 3,
-    "__3": "ENGLIT"
-  },
-  {
-    "": "ANALYSIS OF INFORMATION SYSTEMS",
-    "__1": 1400,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "IMMERSIVE MEDIA TECHNOLOGIES",
-    "__1": 1470,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "INTRODUCTION TO INFORMATION SECURITY",
-    "__1": 1049,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "WRITING FOR ACCESSIBILITY",
-    "__1": "0545",
-    "__2": 3,
-    "__3": "ENGCMP"
-  },
-  {
-    "": "COGNITIVE PSYCHOLOGY FOR NON-MAJORS",
-    "__1": "0421",
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "SENSATION & PERCEPTION",
-    "__1": "0510",
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "LEARNING & MOTIVATION",
-    "__1": "0405",
-    "__2": 3,
-    "__3": "PSY"
-  },
-  {
-    "": "USER EXPERIENCE ENGINEERING",
-    "__1": 1430,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "INFORMATION VISUALIZATION",
-    "__1": 1520,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "SOCIAL COMPUTING",
-    "__1": 1440,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "GAME DESIGN",
-    "__1": 1450,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "NETWORK & WEB DATA TECHNOLOGIES",
-    "__1": 1570,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "FATE IN AI",
-    "__1": 2185,
-    "__2": 3,
-    "__3": "ISSP"
-  },
-  {
-    "": "SPECIAL TOPICS: AI LITERACY",
-    "__1": 1499,
-    "__2": 3,
-    "__3": "INFSCI"
-  },
-  {
-    "": "INTERFACE DESIGN METHODOLOGY",
-    "__1": 1635,
-    "__2": 3,
-    "__3": "CS"
-  }
-]
+
+  {
+  "categories": [
+    { "id": "accessible_design",    "label": "Accessible & Diverse Design" },
+    { "id": "user_research",        "label": "User & Media Research" },
+    { "id": "user_testing",         "label": "User Testing" },
+    { "id": "development",          "label": "Development" },
+    { "id": "human_factors",        "label": "Human Factors & Psychology" },
+    { "id": "product_strategy",     "label": "Product Strategy" },
+    { "id": "web_design",           "label": "Web & Product Design" },
+    { "id": "design_storytelling",  "label": "Design & Storytelling" },
+    { "id": "immersive_tech",       "label": "Immersive Technologies" },
+    { "id": "technical_writing",    "label": "Technical Writing" }
+  ],
+
+  "courses": [
+    {
+      "name": "Gender and the Digital",
+      "num": "1210",
+      "dept": "GSWS",
+      "credits": 3,
+      "cats": ["accessible_design"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": "This course will explore the relationship between identity, media, and digital culture, specifically how gender is constructed and contested through forms of media."
+    },
+    {
+      "name": "Technologies of the Body",
+      "num": "0585",
+      "dept": "ENGFLM",
+      "credits": 3,
+      "cats": ["accessible_design"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": "This course considers how we learn new technologies by looking at the treatment of the body in cinema and television, as well as animation, sports, gaming, and VR."
+    },
+    {
+      "name": "Practical Issues in Disability",
+      "num": "1290",
+      "dept": "REHSCI",
+      "credits": 3,
+      "cats": ["accessible_design"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": "This course will review the natural progression of several age and non-age related physical disabilities such as Alzheimer's and Dementia, Parkinson's disease, CHF, COPD, DM, Spinal Cord injury, and Multiple Sclerosis"
+    },
+    {
+      "name": "Queer and Feminist Media Art",
+      "num": "1610",
+      "dept": "GSWS",
+      "credits": 3,
+      "cats": ["accessible_design"],
+      "prereq": true,
+      "term": "Spring",
+      "desc": "This course develops students' understanding of diversity and will build that understanding through the production of creative work relating to media art that is focused on gender and sexuality."
+    },
+    {
+      "name": "Introduction to Information, Systems and Society",
+      "num": "0010",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["accessible_design"],
+      "prereq": false,
+      "term": "Fall, Spring, Summer",
+      "desc": "Introduction to the concepts, principles, and skills of information science for students with no programming experience."
+    },
+    {
+      "name": "Human-Centered Systems",
+      "num": "0410",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["accessible_design", "human_factors", "web_design"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": "This course is an introduction to the study of the design and implementation of human-centered systems."
+    },
+    {
+      "name": "Database Management Concepts and Applications",
+      "num": "1500",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["accessible_design", "development"],
+      "prereq": true,
+      "term": "Fall, Spring",
+      "desc": "This course introduces students to the practical methodologies of data design, management, storage, and retrieval in the context of relational database management systems."
+    },
+    {
+      "name": "Writing for Accessibility",
+      "num": "0545",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["accessible_design", "technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Written Professional Communication: Topics in Diversity",
+      "num": "0401",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["accessible_design", "technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "User Research and Reporting",
+      "num": "1430",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["user_research", "user_testing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Social Computing",
+      "num": "1440",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["user_research"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "FATE in AI",
+      "num": "2185",
+      "dept": "ISSP",
+      "credits": 3,
+      "cats": ["user_research", "immersive_tech"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "Research Writing",
+      "num": "0450",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["user_research", "technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Mass Communication and Society",
+      "num": "0320",
+      "dept": "COMMRC",
+      "credits": 3,
+      "cats": ["user_research"],
+      "prereq": false,
+      "term": "Fall, Spring, Summer",
+      "desc": ""
+    },
+    {
+      "name": "Introduction to Contemporary Art",
+      "num": "0090",
+      "dept": "HAA",
+      "credits": 3,
+      "cats": ["user_research"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Media Literacy",
+      "num": "1377",
+      "dept": "ENGWRT",
+      "credits": 3,
+      "cats": ["user_research", "human_factors", "technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Words and Images",
+      "num": "0354",
+      "dept": "ENGLIT",
+      "credits": 3,
+      "cats": ["user_research", "web_design"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "User-Centered Design",
+      "num": "1420",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["user_testing", "development"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Web Site Design and Development",
+      "num": "0134",
+      "dept": "CS",
+      "credits": 3,
+      "cats": ["development"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Web Programming",
+      "num": "1059",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["development"],
+      "prereq": true,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Network & Web Data Technologies",
+      "num": "1570",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["development"],
+      "prereq": true,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Interface Design Methodology",
+      "num": "1635",
+      "dept": "CS",
+      "credits": 3,
+      "cats": ["development", "immersive_tech"],
+      "prereq": true,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "User Experience Engineering",
+      "num": "1430",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["development", "web_design"],
+      "prereq": true,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Security and Privacy",
+      "num": "1600",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["development"],
+      "prereq": true,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Organizational Psychology",
+      "num": "1635",
+      "dept": "PSY",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": true,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Introduction to Popular Culture",
+      "num": "0550",
+      "dept": "ENGLIT",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Communication Ethics",
+      "num": "1161",
+      "dept": "COMMRC",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Cognitive Psychology for Non-Majors",
+      "num": "0421",
+      "dept": "PSY",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Sensation & Perception",
+      "num": "0510",
+      "dept": "PSY",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": true,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Learning & Motivation",
+      "num": "0405",
+      "dept": "PSY",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Mass Media",
+      "num": "0490",
+      "dept": "SOC",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Introduction to Social Psychology",
+      "num": "0105",
+      "dept": "PSY",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": false,
+      "term": "Fall, Spring, Summer",
+      "desc": ""
+    },
+    {
+      "name": "Theories of Persuasion",
+      "num": "1111",
+      "dept": "COMMRC",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Principles of Behavior Modifications",
+      "num": "1255",
+      "dept": "PSY",
+      "credits": 3,
+      "cats": ["human_factors"],
+      "prereq": true,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Persuasive Writing in Advertising",
+      "num": "0515",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["human_factors", "technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Organizational Communication",
+      "num": "1102",
+      "dept": "COMMRC",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Corporate Storytelling",
+      "num": "1104",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Introduction to Technical Writing",
+      "num": "0600",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall, Spring, Summer",
+      "desc": ""
+    },
+    {
+      "name": "IT Project Management",
+      "num": "1460",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Written Professional Communication",
+      "num": "0400",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall, Spring, Summer",
+      "desc": ""
+    },
+    {
+      "name": "Theories of Leadership",
+      "num": "1100",
+      "dept": "LDRSHP",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Introduction to Information Security",
+      "num": "1049",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Analysis of Information Systems",
+      "num": "1400",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "History and Ethics of Advertising and Public Relations",
+      "num": "1120",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["product_strategy", "technical_writing"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Managing Projects and Contracts",
+      "num": "1315",
+      "dept": "PUBSRV",
+      "credits": 3,
+      "cats": ["product_strategy"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "Composing Digital Media",
+      "num": "0610",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Introduction to Contemporary Art",
+      "num": "0090",
+      "dept": "SA",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Visual Thinking",
+      "num": "0110",
+      "dept": "SA",
+      "credits": 3,
+      "cats": ["web_design", "design_storytelling"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Digital Studio: Imaging",
+      "num": "1270",
+      "dept": "SA",
+      "credits": 3,
+      "cats": ["web_design", "design_storytelling"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Graphics",
+      "num": "1014",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Design of Information Systems",
+      "num": "1025",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Going Digital: Transformational Change",
+      "num": "1031",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Information Visualization",
+      "num": "1520",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": true,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "Virtual Reality",
+      "num": "1355",
+      "dept": "ENGLIT",
+      "credits": 3,
+      "cats": ["web_design", "immersive_tech"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "Projects in Digital Composition",
+      "num": "1130",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["web_design", "design_storytelling"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Critical Making",
+      "num": "0712",
+      "dept": "ENGLIT",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Integrating Writing & Design",
+      "num": "0520",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["web_design", "design_storytelling", "technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Intro to Audio Storytelling",
+      "num": "0710",
+      "dept": "ENGWRT",
+      "credits": 3,
+      "cats": ["web_design"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Digital Narrative and Interactive Design",
+      "num": "1201",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["design_storytelling"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Game Design",
+      "num": "1450",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["design_storytelling", "immersive_tech"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Storyboarding",
+      "num": "0591",
+      "dept": "ENGFLM",
+      "credits": 3,
+      "cats": ["design_storytelling"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Professional Uses of Social Media",
+      "num": "1112",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["design_storytelling"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Immersive Media Technologies",
+      "num": "1470",
+      "dept": "INFSCI",
+      "credits": 3,
+      "cats": ["immersive_tech"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    },
+    {
+      "name": "Writing Machines",
+      "num": "1207",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["immersive_tech"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "Writing with Data",
+      "num": "0521",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Topics in Public and Professional Writing",
+      "num": "0550",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Writing Arguments",
+      "num": "0560",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Writing for Change",
+      "num": "0641",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["technical_writing"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "Writing for the Public",
+      "num": "0420",
+      "dept": "ENGCMP",
+      "credits": 3,
+      "cats": ["technical_writing"],
+      "prereq": false,
+      "term": "Fall, Spring",
+      "desc": ""
+    },
+    {
+      "name": "Media Relations",
+      "num": "1182",
+      "dept": "COMMRC",
+      "credits": 3,
+      "cats": ["technical_writing"],
+      "prereq": false,
+      "term": "Spring",
+      "desc": ""
+    },
+    {
+      "name": "Topics in Non-Fiction: Electronic Media",
+      "num": "1403",
+      "dept": "ENGWRT",
+      "credits": 3,
+      "cats": ["technical_writing"],
+      "prereq": false,
+      "term": "Fall",
+      "desc": ""
+    }
+  ]
+}

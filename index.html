@@ -4,80 +4,114 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pitt HCI Course Hub</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="hero">
-  <div class="hero-lockup">
-    <div class="lockup-pitt">PITT</div>
-    <div class="lockup-middle">
-      <span class="lockup-ux">UX</span>
-      <span class="lockup-slash">/</span>
-      <span class="lockup-hci">HCI</span>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <span class="header-pitt">Pitt</span>
+      <span class="header-divider">|</span>
+      <span class="header-name">HCI / UX Course Hub</span>
+      <img src="cathy.svg" alt="Pitt HCI" class="header-logo">
     </div>
-    <div class="lockup-course">Course Hub</div>
   </div>
-
-  <img src="cathy.svg" alt="Pitt HCI Cathedral Logo" class="hero-logo">
-
-  <div class="hero-right">
-    <a class="hnav-link" href="#">HCI @ Pitt</a>
-    <a class="hnav-link" href="disciplines.html">Disciplines</a>
-    <div class="hero-divider"></div>
-    <div class="t-line">Explore HCI and UX coursework @ Pitt</div>
-    <div class="t-line">Filter by competency and skillset</div>
-    <div class="t-line">Build your course plan across departments</div>
-  </div>
-</div>
+  <nav class="header-nav">
+    <div class="header-nav-inner">
+      <a class="nav-link" href="#disciplines">Disciplines</a>
+      <a class="nav-link" href="#courses">Courses</a>
+      <a class="nav-link" href="https://www.dnid.pitt.edu/" target="_blank">DNID @ Pitt</a>
+    </div>
+  </nav>
+</header>
 
 <main>
-  <div id="cartPanel" class="cart-panel" style="display: none;">
-    <div class="cart-header">
-      <h3>Your Course Cart</h3>
+  <section id="disciplines" class="disciplines-section">
+    <div class="section-band">
+      <span>Explore Disciplines</span>
+    </div>
+    <div class="disciplines-body">
+      <div class="disc-pill-row" id="discPillRow"></div>
+    <div class="disc-detail" id="discDetail" style="display:none;">
+      <div class="disc-detail-body">
+        <h2 id="discDetailTitle"></h2>
+        <p id="discDetailDesc"></p>
+        <div class="disc-skills" id="discDetailSkills"></div>
+        <div class="disc-courses">
+          <h4>Related Courses</h4>
+          <ul id="discDetailCourses"></ul>
+        </div>
+      </div>
+      <div class="disc-detail-icon" id="discDetailIcon"></div>
+    </div>
+    </div>
+  </section>
+
+  <section id="cart" class="hub-container" style="display:none;" id="cartPanel">
+    <div class="section-band-navy">
+      <span>Your Course Cart</span>
       <span class="cart-count" id="cartCount">0 courses</span>
     </div>
-    <div id="cartItems" class="cart-items"></div>
-    
-    <div class="cart-skills">
-      <h4>Skill Breakdown</h4>
-      <div id="cartSkillCounts" class="skill-tags-container"></div>
-    </div>
-  </div>
-  
-  <div class="hub-container">
-    <div class="filter-bar">
-      <button class="filter-pill">
-        <select id="catSelect" onchange="render()">
-          <option value="">Scaffolding / Category: Any</option>
-        </select>
-      </button>
-      <button class="filter-pill">
-        <select id="creditsSelect" onchange="render()">
-          <option value="">Credits: Any</option>
-          <option value="3">3 Credits</option>
-        </select>
-      </button>
-      <button class="filter-pill">
-        <select id="prereqSelect" onchange="render()">
-          <option value="">PreReq: Any</option>
-          <option value="no">No Prereq</option>
-          <option value="yes">Has Prereq</option>
-        </select>
-      </button>
-      <button class="filter-pill clear-btn" onclick="clearFilters()">✕ Clear</button>
-    </div>
-    <div class="results-bar" id="resultsBar"></div>
     <div class="col-header">
       <div>Course</div>
       <div>Cr.</div>
       <div class="col-skill">Category</div>
       <div class="col-prereq">Prerequisites</div>
+      <div></div>
     </div>
-    <div class="course-list" id="courseList"></div>
-  </div>
+    <div id="cartItems" class="course-list"></div>
+    <div class="cart-skills-bar" id="cartSkillsBar" style="display:none;">
+      <span class="cart-skills-label">Skills:</span>
+      <div id="cartSkillCounts" class="skill-tags-container"></div>
+    </div>
+  </section>
+
+  <section id="courses" class="hub-container">
+    <div class="section-band-navy collapsible" onclick="toggleCourses()">
+      <span>Course Catalog</span>
+      <svg class="section-chevron open" id="coursesChevron" viewBox="0 0 10 10"><polyline points="3,2 7,5 3,8"/></svg>
+    </div>
+    <div id="coursesBody">
+      <div class="filter-bar">
+        <select class="filter-pill" id="catSelect" onchange="render()">
+          <option value="">Scaffolding / Category: Any</option>
+        </select>
+        <select class="filter-pill" id="prereqSelect" onchange="render()">
+          <option value="">PreReq: Any</option>
+          <option value="no">PreReq: No</option>
+          <option value="yes">PreReq: Yes</option>
+        </select>
+        <select class="filter-pill" id="creditsSelect" onchange="render()">
+          <option value="">Credits: Any</option>
+          <option value="3">Credits: 3</option>
+        </select>
+        <button class="clear-btn" onclick="clearFilters()">✕ Clear</button>
+      </div>
+      <div class="results-bar" id="resultsBar"></div>
+      <div class="col-header">
+        <div>Course</div>
+        <div>Cr.</div>
+        <div class="col-skill">Category</div>
+        <div class="col-prereq">Prerequisites</div>
+        <div></div>
+      </div>
+      <div class="course-list" id="courseList"></div>
+    </div>
+  </section>
+
 </main>
- <script src="script.js"></script>
+
+<script>
+function toggleCourses() {
+  const body    = document.getElementById('coursesBody');
+  const chevron = document.getElementById('coursesChevron');
+  const isOpen  = body.style.display !== 'none';
+  body.style.display = isOpen ? 'none' : 'block';
+  chevron.classList.toggle('open', !isOpen);
+}
+</script>
+<script src="script.js"></script>
 </body>
 </html>

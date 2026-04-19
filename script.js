@@ -117,10 +117,7 @@ async function init() {
 //   { name:"Topics in Non-Fiction: Electronic Media", num:"1403", dept:"ENGWRT", credits:3, cats:["technical_writing"], prereq:false, term:"Fall", desc:"" },
 // ];
 
-// ── Shared helpers ──
-function catLabel(id) { 
-  return categories.find(c => c.id === id)?.label || id; 
-}
+function catLabel(id) { return CATS.find(c => c.id === id)?.label || id; }
 
 function clearFilters() {
   ['catSelect','creditsSelect','prereqSelect'].forEach(id => {
@@ -130,7 +127,7 @@ function clearFilters() {
   render(); 
 }
 
-// ── Toggle Logic ──
+const openRows = new Set();
 function toggle(i) {
   const detail = document.getElementById('detail-' + i);
   const btn = document.getElementById('btn-' + i);
@@ -147,31 +144,8 @@ function toggle(i) {
   }
 }
 
-// Start the app!
-init();
-
-// // ── Shared helpers ──
-// function catLabel(id) { return CATS.find(c => c.id === id)?.label || id; }
-
-// function clearFilters() {
-//   ['catSelect','creditsSelect','prereqSelect'].forEach(id => {
-//     const el = document.getElementById(id);
-//     if (el) el.value = '';
-//   });
-//   if (document.getElementById('courseList')) render();
-// }
-
-// // ── Course list (index.html) ──
-// const openRows = new Set();
-
-// function toggle(i) {
-//   const detail = document.getElementById('detail-' + i);
-//   const btn    = document.getElementById('btn-' + i);
-//   if (!detail) return;
-//   if (openRows.has(i)) { openRows.delete(i); detail.classList.remove('open'); btn.classList.remove('open'); }
-//   else                 { openRows.add(i);    detail.classList.add('open');    btn.classList.add('open');    }
-// }
-
+let cart = [];
+const openCartRows = new Set();
 function toggleCartDetail(index) {
   const detail = document.getElementById('cart-detail-' + index);
   const btn    = document.getElementById('cart-btn-'    + index);
@@ -189,38 +163,60 @@ function toggleCart(index, event) {
 }
 
 function updateCartUI() {
-  const cartPanel = document.getElementById('cartPanel');
-  if (!cartPanel) return;
-  const cartItemsDiv       = document.getElementById('cartItems');
-  const cartSkillCountsDiv = document.getElementById('cartSkillCounts');
-  const cartCountSpan      = document.getElementById('cartCount');
-  if (cart.length === 0) { cartPanel.style.display = 'none'; return; }
-  cartPanel.style.display  = 'block';
+  const cartSection    = document.getElementById('cart');
+  const cartItemsDiv   = document.getElementById('cartItems');
+  const cartSkillsBar  = document.getElementById('cartSkillsBar');
+  const cartSkillCounts = document.getElementById('cartSkillCounts');
+  const cartCountSpan  = document.getElementById('cartCount');
+  if (!cartSection) return;
+ 
+  if (cart.length === 0) {
+    cartSection.style.display = 'none';
+    return;
+  }
+ 
+  cartSection.style.display = 'block';
   cartCountSpan.textContent = `${cart.length} course${cart.length !== 1 ? 's' : ''}`;
+ 
   cartItemsDiv.innerHTML = cart.map(index => {
     const c = courses[index];
     const isOpen = openCartRows.has(index);
-    return `<div class="cart-item-wrapper">
-      <div class="cart-item">
-        <div class="cart-item-title-wrap">
-          <button class="toggle-btn${isOpen?' open':''}" id="cart-btn-${index}" onclick="toggleCartDetail(${index})" aria-label="Expand">
+    return `<div class="course-row">
+      <div class="row-summary" onclick="toggleCartDetail(${index})">
+        <div class="course-title-wrap">
+          <button class="toggle-btn${isOpen ? ' open' : ''}" id="cart-btn-${index}" aria-label="Expand">
             <svg viewBox="0 0 10 10"><polyline points="3,2 7,5 3,8"/></svg>
           </button>
-          <span class="cart-item-dept">${c.dept} ${c.num}</span>
-          <span class="cart-item-title">${c.name}</span>
+          <span class="course-code">${c.dept} ${c.num}</span>
+          <span class="course-title">${c.name}</span>
         </div>
-        <button class="cart-item-remove" onclick="toggleCart(${index}, event)">✕ Remove</button>
+        <div class="credits-cell">${c.credits}</div>
+        <div class="skill-cell">${catLabel(c.cats[0])}</div>
+        <div class="prereq-cell">${c.prereq ? '<span class="prereq-warn">⚠ Prereq</span>' : '<span class="prereq-none">None</span>'}</div>
+        <div><button class="cart-item-remove" onclick="toggleCart(${index}, event)">✕ Remove</button></div>
       </div>
-      <div class="${isOpen?'cart-item-detail open':'cart-item-detail'}" id="cart-detail-${index}">
+      <div class="row-detail${isOpen ? ' open' : ''}" id="cart-detail-${index}">
         <p class="detail-desc">${c.desc || 'No description available.'}</p>
-        <div class="detail-meta"><span class="detail-term">Term: <span>${c.term}</span></span></div>
+        <div class="detail-meta">
+          <span class="detail-term">Term: <span>${c.term}</span></span>
+        </div>
       </div>
     </div>`;
   }).join('');
+ 
   const skillCounts = {};
-  cart.forEach(index => { courses[index].cats.forEach(catId => { skillCounts[catId] = (skillCounts[catId] || 0) + 1; }); });
-  cartSkillCountsDiv.innerHTML = Object.entries(skillCounts).sort((a,b) => b[1]-a[1])
-    .map(([catId, count]) => `<div class="skill-badge">${catLabel(catId)} <span>${count}</span></div>`).join('');
+  cart.forEach(index => {
+    courses[index].cats.forEach(catId => {
+      skillCounts[catId] = (skillCounts[catId] || 0) + 1;
+    });
+  });
+ 
+  cartSkillCounts.innerHTML = Object.entries(skillCounts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([catId, count]) => `<div class="skill-badge">${catLabel(catId)} <span>${count}</span></div>`)
+    .join('');
+ 
+  cartSkillsBar.style.display = 'flex';
 }
 
 function render() {
@@ -272,7 +268,7 @@ if (catSel) {
   render();
 }
 
-// ── FIELDS (shared between index + disciplines) ──
+//shared between index and disciplines 
 const FIELDS = [
   { id:'accessible_design', label:'Accessible & Diverse Design',
     icon:`<img src="equal.svg" alt="">`,
@@ -299,7 +295,7 @@ const FIELDS = [
     courses:['CS 0134','INFSCI 1059','INFSCI 1500'] },
 
   { id:'human_factors', label:'Human Factors & Psychology',
-    icon:`<img src="research_brain.svg" alt="">`,
+    icon:`<img src="rebrain.svg" alt="">`,
     desc:'Understanding how humans interact with technology, including cognitive processes, user behavior, and interface design.',
     skills:['Cognitive Psychology','Mental Models','Distributed Cognition','Affordances'],
     courses:['PSY 0105','PSY 0421','COMMRC 1111'] },
@@ -323,7 +319,6 @@ const FIELDS = [
     courses:['INFSCI 1470','ENGLIT 1355','INFSCI 1635'] },
 ];
 
-// ── Disciplines page (disciplines.html) ──
 const discPillRow = document.getElementById('discPillRow');
 if (discPillRow) {
   const discDetail        = document.getElementById('discDetail');
@@ -338,7 +333,6 @@ if (discPillRow) {
     const pill = document.createElement('button');
     pill.className  = 'disc-pill';
     pill.dataset.id = f.id;
-    // Text only — no icon in the pill
     pill.innerHTML  = `<span>${f.label}</span>`;
 
     pill.addEventListener('click', () => {
@@ -352,16 +346,13 @@ if (discPillRow) {
       pill.classList.add('active');
       activeDiscId = f.id;
 
-      // Hero image — sized to fill the icon area
       const heroImg = f.icon.replace(/<img /, '<img style="width:100%;height:100%;object-fit:contain;" ');
       discDetailIcon.innerHTML    = heroImg;
       discDetailTitle.textContent = f.label;
       discDetailDesc.textContent  = f.desc;
 
-      // Skills — plain comma-separated text
       discDetailSkills.textContent = f.skills.filter(s => s.trim()).join(', ');
 
-      // Courses — match to courses array and render expandable rows
       discDetailCourses.innerHTML = f.courses.map((ref, i) => {
         const [dept, num] = ref.trim().split(' ');
         const c = courses.find(x => x.dept === dept && x.num === num);
@@ -382,7 +373,6 @@ if (discPillRow) {
       discDetail.style.display = 'flex';
       setTimeout(() => discDetail.scrollIntoView({ behavior:'smooth', block:'nearest' }), 50);
     });
-
     discPillRow.appendChild(pill);
   });
 }

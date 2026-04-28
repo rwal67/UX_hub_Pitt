@@ -40,7 +40,6 @@ body { font-family: 'Gothic A1', sans-serif; background: var(--bg-soft); color: 
   gap: 1rem;
 }
 .header-pitt {
-  font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.6rem;
   font-weight: 900;
   color: var(--white);
@@ -86,9 +85,8 @@ body { font-family: 'Gothic A1', sans-serif; background: var(--bg-soft); color: 
   transition: color 0.15s, border-color 0.15s;
   display: inline-block;
 }
-.nav-link:first-child { padding-left: 0; }
 .nav-link:hover { color: var(--white); border-bottom-color: var(--gold); }
-.nav-link + .nav-link { border-left: 1px solid rgba(255,255,255,0.1); padding-left: 1.25rem; }
+.nav-link + .nav-link { border-left: 1px solid rgba(255,255,255,0.1); }
 
 main {
   max-width: 1100px;
@@ -182,8 +180,8 @@ main {
 .disc-pill.active { background: var(--white); color: var(--blue); box-shadow: none; }
 
 .disc-pill-icon {
-  width: 22px;
-  height: 22px;
+  width: 28px;
+  height: 28px;
   object-fit: contain;
   flex-shrink: 0;
   filter: brightness(0) saturate(100%) invert(14%) sepia(96%) saturate(2800%) hue-rotate(213deg) brightness(85%) contrast(110%);
@@ -434,9 +432,12 @@ main {
   border-top: 1px solid var(--border);
 }
 .detail-term { font-size: 0.75rem; font-weight: 700; color: var(--dark-grey); }
-.detail-term span { color: var(--muted); font-weight: 400; }
-.peoplesoft-link { font-size: 0.75rem; color: var(--blue); text-decoration: none; font-weight: 700; }
-.peoplesoft-link:hover { text-decoration: underline; }
+.detail-term span { color: var(--text); font-weight: 400; }
+.detail-prereqs { font-size: 0.75rem; font-weight: 400; color: var(--text); }
+.detail-prereq-label { color:#FF6600; font-weight: 600;}
+.detail-attr { font-size: 0.75rem; font-weight: 400; color: var(--text); }
+.detail-attr-label { font-weight: 600;}
+.detail-attr, .detail-prereqs { width: 100%; }
 .empty-msg { text-align: center; padding: 3rem; color: #bbb; font-size: 0.9rem; }
 
 .add-btn {

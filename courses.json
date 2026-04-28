@@ -1,5 +1,4 @@
-
-  {
+{
   "categories": [
     { "id": "accessible_design",    "label": "Accessible & Diverse Design" },
     { "id": "user_research",        "label": "User & Media Research" },
@@ -22,7 +21,8 @@
       "cats": ["accessible_design"],
       "prereq": false,
       "term": "Spring",
-      "desc": "This course will explore the relationship between identity, media, and digital culture, specifically how gender is constructed and contested through forms of media."
+      "attr": ["Online Asynchronous"],
+      "desc": "This course will explore the relationship between identity, media, and digital culture, specifically how gender is constructed and contested through forms of media. Students will consider how media also informs notions of race, class, sexuality, religion, and ethnicity, among other identity markers. This course will rely on thoughtful and academically stimulating analyses of media, such as television, film, music, advertising, online spaces, video games, among others, and in various combinations."
     },
     {
       "name": "Technologies of the Body",
@@ -31,8 +31,9 @@
       "credits": 3,
       "cats": ["accessible_design"],
       "prereq": false,
-      "term": "Spring",
-      "desc": "This course considers how we learn new technologies by looking at the treatment of the body in cinema and television, as well as animation, sports, gaming, and VR."
+      "term": "Fall, Spring",
+      "attr": ["DSAS Creative Work", "DSAS Diversity", "SCI Diversity", "SCI Polymathic Contexts: Humanistic"],
+      "desc": "This course considers how we learn new technologies by looking at the treatment of the body in cinema and television, as well as animation, sports, gaming, and VR. In addition to analyzing media examples, students will experiment with low-tech and high-tech adaptations of optical toys and smart phone cinema to explore how movement and the body have been imagined in science and entertainment."
     },
     {
       "name": "Practical Issues in Disability",
@@ -50,9 +51,10 @@
       "dept": "GSWS",
       "credits": 3,
       "cats": ["accessible_design"],
-      "prereq": true,
-      "term": "Spring",
-      "desc": "This course develops students' understanding of diversity and will build that understanding through the production of creative work relating to media art that is focused on gender and sexuality."
+      "prereq": false,
+      "term": "Fall",
+      "attr": ["DSAS Creative Work", "DSAS Diversity", "SCI Diversity", "SCI Polymathic Contexts: Humanistic"],
+      "desc": "This course develops students' understanding of diversity and will build that understanding through the production of creative work relating to media art that is focused on gender and sexuality. Looking at the different ways that people express their gender and sexuality using media - including but not limited to: video and film, digital media, images, analog media, etc. - this course surveys the diverse ways that people express their sexuality and gender through creative expressions that are also connected to social change, resistance, and difference. Surveying a wide range of queer and feminist media, the course asks students to examine the relationship between gender, sexuality and colonialism, race and racialization, ethnicity, globalization, religion, and nationalism through the formats of creative expression. The course draws heavily on building creative assignments on topics relating to gender and sexuality, including self-reflexive projects that ask students to think about their own relationship to these categories through creative mediums."
     },
     {
       "name": "Introduction to Information, Systems and Society",
@@ -60,9 +62,11 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["accessible_design"],
-      "prereq": false,
-      "term": "Fall, Spring, Summer",
-      "desc": "Introduction to the concepts, principles, and skills of information science for students with no programming experience."
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "attr": ["DSAS Quant.-Formal Reason"],
+      "prereq_list": ["MATH 0020 or 0025 or 0031 or 0110 or 0002 or 0220 or 0230 (MIN GRADE 'C') or MATH PLACEMENT SCORE (61 or GREATER)"],
+      "desc": "Introduction to the concepts, principles, and skills of information science for students with no programming experience. Topics include the need for information and the use of information, data collection, coding, storage and retrieval, information processing, information display, and the evaluation of information. This course is intended for students enrolled in programs other than the BSIS major."
     },
     {
       "name": "Human-Centered Systems",
@@ -70,9 +74,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["accessible_design", "human_factors", "web_design"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": "This course is an introduction to the study of the design and implementation of human-centered systems."
+      "prereq_list": ["CMPINF 0401 or CS 0401 or INFSCI 0017 or INFSCI 0201"],
+      "desc": "This course is an introduction to the study of the design and implementation of human-centered systems. Human-centered systems place the human at the center of the design process. This course will look at theoretical foundations and formal methods from a variety of fields including computer science, psychology and sociology; the actual design process, the dynamics associated with focusing on the individual, small groups and society; and may include selected special topics (instructor dependent) from the following: geospatial reasoning, mobile interaction, multimedia, ubiquitous computing, haptic interaction, virtual reality, wearable computing and sensor based systems."
     },
     {
       "name": "Database Management Concepts and Applications",
@@ -82,7 +87,8 @@
       "cats": ["accessible_design", "development"],
       "prereq": true,
       "term": "Fall, Spring",
-      "desc": "This course introduces students to the practical methodologies of data design, management, storage, and retrieval in the context of relational database management systems."
+      "prereq_list": ["INFSCI 0510 or INFSCI 0419 or INFSCI 0019) or (CMPINF 0401 or CS 0401 or INFSCI 0017 or CS 0422)"],
+      "desc": "This course introduces students to the practical methodologies of data design, management, storage, and retrieval in the context of relational database management systems. This course covers fundamental concepts of effective database development process, including entity-relationship model, normalization, structured query language (SQL), basics of transaction management and physical database design."
     },
     {
       "name": "Writing for Accessibility",
@@ -90,9 +96,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["accessible_design", "technical_writing"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["Writing Intensive Course (WRIT)"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "Creating a more just world means creating a more accessible world, and we can do that with and in our writing. Through readings and discussions on issues of disability justice, linguistic justice, and access, this course will first offer students a framework for understanding the social and cultural significance of creating accessible writing and using writing to increase the accessibility of non-written material (e.g. audiovisual content). Students will then learn and apply a variety of strategies to make their academic and public/professional writing more accessible for a broad range of audiences with and without disabilities, drawing from and extending principles of Universal Design. Students will also write in genres meant specifically for accessibility purposes, such as alt-text descriptions of visual material, image descriptions of social media posts and museum objects, and audio descriptions of video clips."
     },
     {
       "name": "Written Professional Communication: Topics in Diversity",
@@ -100,9 +108,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["accessible_design", "technical_writing"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring, Summer",
+      "attr": ["DSAS Diversity", "Writing Intensive Course (WRIT)", "SCI Diversity", "Global Studies"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This course explores the methods of inquiry, analysis and composition characteristic of written communication in professional settings. The course will examine such writing's specialized use of language, conventions and formats, premises, motives, and purposes. By preparing letters, resumes, proposals, reports, etc., students will get a feel not only for what professional communication is, but also for how and why it does, or can, or should function. This Topics in Diversity section of WPC will invite students to expand and complicate their understanding of the benefits of workplace diversity and of the problems arising from the unequal distribution of power and privilege across positions (including race, gender, sexuality, ethnicity, ability, religion, and class) in the professions."
     },
     {
       "name": "User Research and Reporting",
@@ -110,9 +120,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["user_research", "user_testing"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Spring",
+      "attr": ["Undergraduate Research", "Writing Intensive Course (WRIT)", "SCI Expression: Tech/Bus/Res Writing"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This course prepares students for the creative and technical demands of the user experience (UX) design workplace, ensuring each student possesses the hard skills of user research and the soft skills required to best communicate those results. It introduces students to UX design theories and principles alongside practical applications of measuring usability and user experiences for products and services. Ethical and practical questions of accessibility and disability necessarily inform our discussion and practice. This course also incorporates aspects of product consulting, providing students with an opportunity to apply their theoretical and practical understanding of user research to the benefit of stakeholders."
     },
     {
       "name": "Social Computing",
@@ -120,19 +132,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["user_research"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall",
-      "desc": ""
-    },
-    {
-      "name": "FATE in AI",
-      "num": "2185",
-      "dept": "ISSP",
-      "credits": 3,
-      "cats": ["user_research", "immersive_tech"],
-      "prereq": false,
-      "term": "Spring",
-      "desc": ""
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044", "INFSCI 0510 or INFSCI 0419 or INFSCI 0019", "INFSCI 0610 or INFSCI 1070"],
+      "desc": "This course focuses on how social groups form and evolve, how members of these groups interact with each other, and how these groups are supported and augmented with computer systems. The course is interdisciplinary, drawing from the fields of computer science, psychology, and sociology. It covers key theories and technologies of social computing in terms of (1) computer systems supporting social behavior and (2) socially intelligent computing carried out by groups. Students will have a chance to explore social computing systems, get experience with social data analyses and focus on design, and evaluation of a social software as their final project for the course."
     },
     {
       "name": "Research Writing",
@@ -140,9 +143,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["user_research", "technical_writing"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["Undergraduate Research", "Writing Intensive Course (WRIT)", "SCI Expression: Tech/Bus/Res Writing"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0716 or 0718)"],
+      "desc": "This course trains students in the techniques of responsible library research. Students will learn how to locate and utilize the resources of a library. Students will also learn how to take notes and document, use primary and secondary sources, and write paraphrases, summaries and abstracts. Each student will write a major research paper on a topic of his/her choice, one which may legitimately serve as a term paper for another course."
     },
     {
       "name": "Mass Communication and Society",
@@ -152,7 +157,8 @@
       "cats": ["user_research"],
       "prereq": false,
       "term": "Fall, Spring, Summer",
-      "desc": ""
+      "attr": ["DSAS The Arts", "DSAS Historical Analysis", "Undergraduate Research", "Online Synchronous", "SCI Polymathic Contexts: Humanistic", "SCI Polymathic Contexts: Soc/Behav."],
+      "desc": "This course is designed to introduce students to the basic concepts of mass communication research and to the history and development of various media (TV., Radio, newspapers, magazines, etc.)."
     },
     {
       "name": "Introduction to Contemporary Art",
@@ -162,7 +168,8 @@
       "cats": ["user_research"],
       "prereq": false,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["DSAS The Arts", "DSAS Global Issues", "SCI Polymathic Contexts: Global&Cross Cul", "SCI Polymathic Contexts: Humanistic", "European and Eurasian Studies", "Global Studies", "West European Studies"],
+      "desc": "What is contemporary art, and why does it matter in society today? Participants in this course will develop answers to these questions by learning about how artists around the world have used art to articulate and address personal, political, public health, and environmental issues. Class activities will focus on innovative approaches to the global production and display of visual, spatial, time-based, performance, and conceptual art forms since the 1950s. Students will develop vocabularies for describing and analyzing works of art and art exhibitions. They will also gain knowledge of cultural responses to major historical events of the last sixty years, including Civil Rights movements, the Vietnam War, the AIDS epidemic, and 21st-century climate and refugee crises."
     },
     {
       "name": "Media Literacy",
@@ -171,8 +178,8 @@
       "credits": 3,
       "cats": ["user_research", "human_factors", "technical_writing"],
       "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Fall",
+      "desc": "An examination of digital media, advertising, ethics and social media that impacts the practice of journalism. A &S Catalog Description: This course will teach you how to be media literate and understand the role of media in a democracy. You will learn how to identify and verify news, and how to understand news gathering and sourcing. You will learn how to distinguish between the demands of real journalism as you do your own writing and the realities of the digital world."
     },
     {
       "name": "Words and Images",
@@ -180,9 +187,11 @@
       "dept": "ENGLIT",
       "credits": 3,
       "cats": ["user_research", "web_design"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring, Summer",
+      "attr": ["DSAS Literature", "Writing Intensive Course (WRIT)", "SCI Polymathic Contexts: Humanistic"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0716 or 0718)"],
+      "desc": "This interdisciplinary course explores the relationships between language and the diverse kinds of images that often accompany it (film, video, photography, book illustration, painting, etc.). The goal is to study the parallels and differences between images and words (as systems of communication) and to understand how they can productively interrelate within creative works such as literature, films, videos, and photographic studies."
     },
     {
       "name": "User-Centered Design",
@@ -190,9 +199,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["user_testing", "development"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044"],
+      "desc": "Introduces principles and programming of interactive systems. Interaction techniques are surveyed and incorporated into the design of interfaces."
     },
     {
       "name": "Web Site Design and Development",
@@ -201,8 +211,8 @@
       "credits": 3,
       "cats": ["development"],
       "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Currently Unavailable",
+      "desc": "This course will provide a basic understanding of the methods and techniques of developing a simple to moderately complex web site. Using the current standard web page language, students will be instructed on creating and maintaining a simple web site. After the foundation language has been established, the aid of an internet editor will be introduced. A second web-based language will be included to further enhance the web sites."
     },
     {
       "name": "Web Programming",
@@ -211,8 +221,10 @@
       "credits": 3,
       "cats": ["development"],
       "prereq": true,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Currently Unavailable",
+      "attr": ["Capstone Course"],
+      "prereq_list": ["INFSCI 0017 or 0015 or CS 401", "INFSCI 1022"],
+      "desc": "This course will introduce the PHP scripting language. Students will download and install the apache web server, PHP, and MYSQL database. In addition, PHP installation in the sis labs will be utilized. The course will cover programming concepts, client server architecture, database access and XHTMLl/cascading style sheets. Students will write a full scale web application as their final project."
     },
     {
       "name": "Network & Web Data Technologies",
@@ -221,8 +233,9 @@
       "credits": 3,
       "cats": ["development"],
       "prereq": true,
-      "term": "Fall",
-      "desc": ""
+      "term": "Spring",
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044", "INFSCI 0510 or INFSCI 0419 or INFSCI 0019", "INFSCI 0610 or INFSCI 1070"],
+      "desc": "This course is about the core technologies and standards for web based distributed systems that we use to build Web applications. It includes an overview of the standardization process and the standards organizations. The course will introduce client and server-side technologies for the web with emphasis on front-end technologies such as HTML5, JavaScript, CSS, responsive design etc. and a set of back-end technologies and APIs."
     },
     {
       "name": "Interface Design Methodology",
@@ -231,8 +244,9 @@
       "credits": 3,
       "cats": ["development", "immersive_tech"],
       "prereq": true,
-      "term": "Spring",
-      "desc": ""
+      "term": "Fall",
+      "prereq_list": ["CS 0445"],
+      "desc": "This course will introduce concepts and common practices for building software for user interfaces. Concepts will connect across input, visual layout techniques, and software patterns for responsive user interaction with a focus on mobile platforms (web and native). Emergent interface concepts, such as voice, AR/VR, and IoT will also be explored while building upon the course's software foundation. This course is targeted for students who desire skills in front-end development, interface design and prototyping, and user experience engineering."
     },
     {
       "name": "User Experience Engineering",
@@ -241,8 +255,9 @@
       "credits": 3,
       "cats": ["development", "web_design"],
       "prereq": true,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Fall",
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044"],
+      "desc": "This course presents the fundamental principles of user experience (UX) engineering across three broad categories of designs and products - digital products, virtual worlds, and physical spaces. This course will cover a broad range of topics, including specifying, designing, and evaluating user experiences, understanding the role of user experience in the design of digital products, virtual environments, and physical spaces, and the roles of psychology, sociology, and psychometrics in user experience design. This is an active learning course where students will be expected to read research papers, participate in class discussions, and work with external stakeholders."
     },
     {
       "name": "Security and Privacy",
@@ -252,7 +267,8 @@
       "cats": ["development"],
       "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "prereq_list": ["INFSCI 0610 or INFSCI 1070"],
+      "desc": "The objective of this course is to provide an understanding of information security ranging from threats, vulnerabilities, and attacks to protection, detection, and response. Students will develop the ability to converse with the terminology used in information security (e.g., confidentiality, authentication, integrity, availability). The course will cover the basics of security issues in operating systems, applications, and databases. This is followed by an examination of the architecture and generalized protocol/operational aspects of information networks to identify how security attacks (e.g., denial of service) are possible. Basics of security mechanisms such as cryptography, firewalls, and secure protocols for networks will be presented. The course will include a discussion of privacy and human factors in security (e.g., usable security)."
     },
     {
       "name": "Organizational Psychology",
@@ -261,8 +277,9 @@
       "credits": 3,
       "cats": ["human_factors"],
       "prereq": true,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Fall",
+      "prereq_list": ["PSY 0010 or 0012 or 0101 or 0200", "PSY 0035 or 1031 or 0036 and 0037", "STAT 0200 or 1000 or 1100 or PSY 0201 or 0270"],
+      "desc": "This course will provide broad exposure to the field of organizational psychology. We will cover concepts of leadership, motivation, group dynamics, personality, organizational development strategies, and other behavioral aspects involved in the effective management of an organization through readings, lecture, video, discussion, and case analyses. The emphasis is on building a sound grasp of leadership practice, and on developing the ability to apply such knowledge to actual business problems. The class format will include multiple hands-on assignments to assist the student in understanding how psychological theories can be applied in a work context."
     },
     {
       "name": "Introduction to Popular Culture",
@@ -271,8 +288,9 @@
       "credits": 3,
       "cats": ["human_factors"],
       "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Spring",
+      "attr": ["DSAS Literature", "Children's Literature", "SCI Polymathic Contexts: Humanistic"],
+      "desc": "This course covers texts from American mass culture-popular fiction, advertising, popular music, television, etc. It will explore methods of analyzing these texts, discovering what these products have in common and what distinguishes them from other cultural artifacts."
     },
     {
       "name": "Communication Ethics",
@@ -280,19 +298,11 @@
       "dept": "COMMRC",
       "credits": 3,
       "cats": ["human_factors"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
-    },
-    {
-      "name": "Cognitive Psychology for Non-Majors",
-      "num": "0421",
-      "dept": "PSY",
-      "credits": 3,
-      "cats": ["human_factors"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "attr": [" Writing Intensive Course (WRIT)"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "Contemporary society offers a wide variety of topics for ethical consideration: deception, lying, fidelity in relationships, hate speech, harassment, privacy, intellectual property, pornography and many others. This class examines the ethical dimensions of communication through the prism of case studies. Students are introduced to traditional forms of ethical reasoning as well as emerging concerns raised by the internet and digital media. One major question that the course addresses is the following: do the internet and new information technologies represent qualitatively new ethical challenges or are these versions of traditional ethical dilemmas? The bulk of class time uses discussion and case studies to emphasize the practice of ethical deliberation and the ability to reason about ethical issues and problems."
     },
     {
       "name": "Sensation & Perception",
@@ -301,8 +311,10 @@
       "credits": 3,
       "cats": ["human_factors"],
       "prereq": true,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Spring",
+      "attr": ["DSAS Natural Science", "SCI Polymathic Contexts: Science NonSeq."],
+      "prereq_list": ["PSY 0010 or 0012 or 0101 or 0200"],
+      "desc": "This course examines the nature of the mechanisms that transform sensory input into our perceptual experience of the world. Topics include structure and function of sensory system, perception of color, object, motion, etc. Both information-processing and ecological approaches to the study of perception are considered."
     },
     {
       "name": "Learning & Motivation",
@@ -310,9 +322,11 @@
       "dept": "PSY",
       "credits": 3,
       "cats": ["human_factors"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "attr": ["Children's Literature", "DSAS Natural Science", "SCI Polymathic Contexts: Science NonSeq."],
+      "prereq_list": ["PSY 0010 or 0012 or 0101 or 0200"],
+      "desc": "This course elucidates fundamental principles of learning and motivation as derived predominantly from animal research. Focus is given to the empirical and conceptual processes underlying the facilitation and suppression of behavior, e.g. primary and conditioned reinforcement, non-reinforcement, punishment and avoidance as well as the generalization and discrimination of these processes."
     },
     {
       "name": "Mass Media",
@@ -321,8 +335,8 @@
       "credits": 3,
       "cats": ["human_factors"],
       "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Fall",
+      "desc": "This course deals with the many faceted roles of mass media in our society and explains how and why the media have achieved their present prominence and influence on our lives."
     },
     {
       "name": "Introduction to Social Psychology",
@@ -330,9 +344,11 @@
       "dept": "PSY",
       "credits": 3,
       "cats": ["human_factors"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring, Summer",
-      "desc": ""
+      "attr": ["DSAS Social Science", "SCI Polymathic Contexts: Soc/Behav."],
+      "prereq_list": ["PSY 0010 or 0012 or 0101 or 0200"],
+      "desc": "An overview of social psychology--the scientific study of how people's thoughts, feelings, and behavior are influenced by the actual, imagined, or implied presence of other people (Allport, 1985). Topics covered include conformity to social norms, attitudes and persuasion, stereotyping and prejudice, social judgment and person perception, emotional and motivational influences on social perception and behavior, aggression and social conflict, helping and prosocial behavior, interpersonal attraction, and close relationships."
     },
     {
       "name": "Theories of Persuasion",
@@ -340,9 +356,11 @@
       "dept": "COMMRC",
       "credits": 3,
       "cats": ["human_factors"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["Online Asynchronous", "Global Studies"],
+      "prereq_list": ["COMMRC 0310 or 0320 or 0081 or COMM 0102", "COMMRC 0520 or 0052 or COMM 0104", "ENGCMP 0200 or (ENGCMP 0203 or 0205 or 0207 or 0208 or 0250 or 0210 or 0212 or 0213 or FP 0003 or 0006 or ENGCMP 0004 or 0006 or 0020 or ENG 0102)"],
+      "desc": "This course surveys theories of persuasion that have been articulated during the twentieth century. It seeks to compare and contrast research about how the spoken word and the visual image influence public belief and action."
     },
     {
       "name": "Principles of Behavior Modifications",
@@ -350,9 +368,9 @@
       "dept": "PSY",
       "credits": 3,
       "cats": ["human_factors"],
-      "prereq": true,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": false,
+      "term": "Currently Unavailable",
+      "desc": "Behavior modification techniques are the most commonly used interventions in psychology, education and health psychology. In this course, students will learn basic concepts, theories and research in behavior modification in the context of clinical applications. Most learning will occur through practical, applied exercises. In one set of exercises, students will choose a hypothetical client and apply behavioral methods to their client's case. Students will develop a portfolio of assessment and treatment techniques for their client."
     },
     {
       "name": "Persuasive Writing in Advertising",
@@ -360,9 +378,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["human_factors", "technical_writing"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["Writing Intensive Course (WRIT)"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGCMP 0213 or ENGCMP 0214 or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0716 or 0718)"],
+      "desc": "In this course, students will analyze and create the kinds of persuasive writing used in the fields of fundraising and advertising. Both types of writing attempt to influence the decisions people make about the money they spend, the attitudes they have, and the issues that shape our society."
     },
     {
       "name": "Organizational Communication",
@@ -370,9 +390,11 @@
       "dept": "COMMRC",
       "credits": 3,
       "cats": ["product_strategy"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring, Summer",
+      "attr": ["Online Asynchronous", "SCI Expression: Communication"],
+      "prereq_list": ["COMMRC 0300 or 0030 or 0100 or 0101 or 7300", "ENGCMP 0200 or (ENGCMP 0203 or 0205 or 0207 or 0208 or 0250 or 0210 or212 or 0213 or FP 0003 or 0006 or ENGCMP 0004 or 0006 or 0020 or ENG 0102)"],
+      "desc": "Students in this course are provided with an overview of the relationship between communication and organizing processes. The course emphasizes theories, principles, and concepts of organizational communication. Students learn to analyze the communication which occurs in organizations to recognize sources of communication breakdown and develop an awareness of strategies for prevention and/or resolution of communication on breakdown."
     },
     {
       "name": "Corporate Storytelling",
@@ -380,9 +402,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["product_strategy"],
-      "prereq": false,
-      "term": "Fall",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring",
+      "attr": ["Undergraduate Research", "Writing Intensive Course (WRIT)"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGCMP 0213 or ENGCMP 0214 or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0718)"],
+      "desc": "Corporate writers play key roles in defining and developing the communications landscape for organizations and their audiences. But what exactly is corporate writing? How do we, as writers, ensure we are effectively advancing the goals of our companies and clients? In this course, students will explore the conventions of content marketing, search engine optimization, writing for the web, and the other forms of business writing in order to craft inventive and accessible messages. We will also examine corporate storytelling as a tool used to construct and maintain strong company personas. Assignments will incorporate written, visual, and oral components as students launch their own companies to simulate real world projects and dynamics. This course will help you strengthen and flex your creative communication skills to engage and influence readers in a variety of channels within the corporate setting."
     },
     {
       "name": "Introduction to Technical Writing",
@@ -390,9 +414,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["product_strategy"],
-      "prereq": false,
-      "term": "Fall, Spring, Summer",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring",
+      "attr": ["Writing Intensive Course (WRIT)", "SCI Expression: Tech/Bus/Res Writing"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0716 or 0718)"],
+      "desc": "This introductory course is for students in various technical fields. Representative technical reports will be studied, as well as abstracts, the presentation of visuals and oral communication. Writing assignments will emerge from case studies reflecting on-the-job challenges."
     },
     {
       "name": "IT Project Management",
@@ -400,9 +426,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["product_strategy"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Spring",
+      "prereq_list": ["INFSCI 1400 or INFSCI 1024"],
+      "desc": "Project management is the discipline to manage and oversee a project from inception to completion. As more and more organizations look to launch highly competitive and disruptive technologies in the marketplace, it's critical that you can apply these methodologies, tools, and techniques to successfully manage an IT project to completion. In this course, you will acquire a working knowledge of the two more widely used project management methodologies (Agile and Waterfall) and gain hands-on experience by working through real world case studies."
     },
     {
       "name": "Written Professional Communication",
@@ -410,9 +437,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["product_strategy"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring, Summer",
-      "desc": ""
+      "attr": ["Writing Intensive Course (WRIT)", "SCI Expression: Tech/Bus/Res Writing"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0716 or 0718)"],
+      "desc": "This course explores the methods of inquiry, analysis and composition characteristic of written communication in professional settings. The course will examine such writing's specialized use of language, conventions and formats, premises, motives, and purposes. By preparing letters, resumes, proposals, reports, etc. Students will get a feel not only for what professional communication is, but also for how and why it does, or can, or should function."
     },
     {
       "name": "Theories of Leadership",
@@ -421,8 +450,9 @@
       "credits": 3,
       "cats": ["product_strategy"],
       "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Fall",
+      "attr": ["Online Asynchronous"],
+      "desc": "This course is designed to acquaint students with multiple theories and practices associated with effective leadership. In answering the question, what is leadership, it examines such theories as situational, participative, transformational, and servant leadership. It also addresses those leadership and administrative skills and practices usually associated with effective community organization and professional management."
     },
     {
       "name": "Introduction to Information Security",
@@ -430,9 +460,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["product_strategy"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Spring",
+      "prereq_list": ["ANTI-req: Plans cannot be ISCI-BS, CSCI-BS, or INFSYS-CR1"],
+      "desc": "Introductory information security and privacy course for students outside of the BSIS/MSIS/MST majors. Covers fundamental issues and first principles of security and information assurance, including security policies, models and mechanisms related to confidentiality, integrity, authentication, identification, and availability issues related to information and information systems. The course will introduce students to risk management, security assurance, secure design principles, organizational security policy, legal and ethical issues in security, and standards and methodologies for security evaluation and certification."
     },
     {
       "name": "Analysis of Information Systems",
@@ -440,9 +471,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["product_strategy"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044"],
+      "desc": "This course provides state-of-the-art skills in requirements management and scope management, which is critical for successful IT projects. Topics include best practices in eliciting, documenting, verifying and modeling requirements. This is an active learning course where students develop an analysis model for a realistic IT project which can serve as a foundation for an analysis model that is suitable for inclusion in the student's IT portfolio."
     },
     {
       "name": "History and Ethics of Advertising and Public Relations",
@@ -450,9 +482,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["product_strategy", "technical_writing"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall",
-      "desc": ""
+      "attr": ["DSAS Phil. Think or Ethics", "Undergraduate Research", "Writing Intensive Course (WRIT)", "SCI Polymathic Contexts: Ethical/Policy"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or ENGFLM 0210 or FP (0003 or 0006) or ENGR 0012"],
+      "desc": "In this course, students will learn how pivotal ethical moments in advertising and PR history changed the face of these professions and influence our creative choices even now. Students will use the four-step planning process of research, strategy, implementation, and evaluation to construct innovative campaigns and tackle common ethical issues these professions face today. Topics to be explored may include manipulation and misrepresentation of facts, privacy concerns in the technology age, sensitivity to diversity and appropriation, responsible interaction with vulnerable populations, subliminal messaging tactics, and more. By the end of this course, students will produce a multi-faceted PR and advertising campaign that navigates a complex ethical issue and showcases their professional writing skills."
     },
     {
       "name": "Managing Projects and Contracts",
@@ -461,8 +495,9 @@
       "credits": 3,
       "cats": ["product_strategy"],
       "prereq": false,
-      "term": "Spring",
-      "desc": ""
+      "term": "Currently Unavailable",
+      "attr": ["Urban Studies"],
+      "desc": "This course provides students with the fundamentals of project management by examining key components of the project cycle, such as: problem identification, results-based planning and design strategies, implementation and scheduling strategies, monitoring and performance indicators, impact learning with evaluation studies, and data management and reporting systems. Students will also be introduced to team building concepts, managing project budgets, writing scopes of work, and legal issues in the management of contracts and administration of grants."
     },
     {
       "name": "Composing Digital Media",
@@ -470,19 +505,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["web_design"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
-    },
-    {
-      "name": "Introduction to Contemporary Art",
-      "num": "0090",
-      "dept": "SA",
-      "credits": 3,
-      "cats": ["web_design"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["DSAS Creative Work", "Writing Intensive Course (WRIT)", "SCI Expression: Tech/Bus/Res Writing", "SCI Polymathic Contexts: Humanistic"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This course requires students to compose digital media while exploring the rhetorical, poetic, and political implications of multiple writing platforms. Students will learn how to compose a range of critical media objects using web-authoring languages, text, sound, images, and video in proprietary and open-source software. Classes will focus on theories of writing, composing, design, critique, delivery, and networked distributions; critique and analysis of digital media produced by professional and amateur digital media practitioners; and analysis and revisions of digital media composed by the students themselves."
     },
     {
       "name": "Visual Thinking",
@@ -491,8 +518,9 @@
       "credits": 3,
       "cats": ["web_design", "design_storytelling"],
       "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Fall, Spring, Summer",
+      "attr": ["DSAS Creative Work", "SCI Polymathic Contexts: Humanistic"],
+      "desc": "Visual Thinking offers an introduction and insight into the process and practice of creating visual art. The subject is explored by making images supported by lectures, discussions, and critiques. Students are introduced to the dynamics of composition, relationships of form and content, principles of color, visual analysis, and creative problem-solving. The course also seeks to provide some experience with a variety of media, develop skills in observation and technique, and encourage personal engagement in solving visual problems."
     },
     {
       "name": "Digital Studio: Imaging",
@@ -500,9 +528,11 @@
       "dept": "SA",
       "credits": 3,
       "cats": ["web_design", "design_storytelling"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["Undergraduate Research"],
+      "prereq_list": ["SA 0110", "SA 0180"],
+      "desc": "Digital Studio: Imaging is a studio designed to immerse students in the investigation of digital art practices. Emphasis will be on the history and aesthetics of art and digital technology, including screen-based imaging practices, creative coding, and digital fabrication. Throughout the course, you will acquire and enhance technical skills, but the emphasis will be on the use of the computer as an art-making tool for your creative expression. Thoughtfulness, experimentation and curiosity is encouraged."
     },
     {
       "name": "Graphics",
@@ -510,9 +540,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["web_design"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "prereq_list": ["INFSCI 0017 or 0015 or CS 0401"],
+      "desc": "Techniques for producing graphical displays using computers. How to design and create computer graphics. Overview of artistic and technical knowledge needed to create graphics. What makes a good graphical display will be investigated."
     },
     {
       "name": "Design of Information Systems",
@@ -520,9 +551,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["web_design"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "prereq_list": ["INFSCI 0017 OR 0015 or CS 0401", "INFSCI 1024"],
+      "desc": "Object-oriented design best practices; principles of system architecture; design patterns; requirements traceability; construction of UMLcompliant models (class, sequence, communication and package diagrams); refactoring; iterative development of system prototype. Requires knowledge of fundamental oo programming concepts including abstract classes, interfaces, inheritance, polymorphism, and message passing."
     },
     {
       "name": "Going Digital: Transformational Change",
@@ -530,9 +562,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["web_design"],
-      "prereq": false,
-      "term": "Fall",
-      "desc": ""
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "prereq_list": ["INFSCI 1024"],
+      "desc": "New digital tools are disrupting traditional business models, forcing organizations to develop new business models and strategies that not only strengthen capabilities and drive growth, but also provide a significant competitive advantage. IT business analysts and consultants are uniquely positioned to help organizations integrate these initiatives to solve their most pressing business problems. This course is designed to build IT consulting skills that enhance critical thinking, problem solving, written and oral communication, and presentation capabilities. The course is taught through a combination of lecture, class discussions, case studies and team based projects."
     },
     {
       "name": "Information Visualization",
@@ -542,7 +575,8 @@
       "cats": ["web_design"],
       "prereq": true,
       "term": "Spring",
-      "desc": ""
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044", "INFSCI 0510 or INFSCI 0419 or INFSCI 0019", "INFSCI 0610 or INFSCI 1070"],
+      "desc": "Visualization is a way to explore, present, and express meaning in data, so there is no visualization without data. This course aims to investigate what data presents and how to present data, which requires both data analytics and information design knowledge. In this course, we will introduce concepts, methods and procedures of data visualization, with emphasis on the creative process of organizing, visualizing, communicating and interacting information. The course is designed to help students develop critical thinking for evaluating visualization system and practical skills in solving visualization problems."
     },
     {
       "name": "Virtual Reality",
@@ -552,7 +586,8 @@
       "cats": ["web_design", "immersive_tech"],
       "prereq": false,
       "term": "Spring",
-      "desc": ""
+      "attr": ["DSAS Creative Work", "DSAS Phil. Think or Ethics"],
+      "desc": "This course dives deep into the rabbit hole of the real and the virtual, an adventure that includes philosophy, literature, film, and, of course, VR headsets aplenty! In addition to exploring the history of the real and the virtual, we will consider the relationship of virtual reality to the body, to space, to human gesture and communication, and to code. We will also explore the role of the imagination and creativity in the generation of new worlds. You will learn to think historically, theoretically, and critically about VR. You will have the option of either writing critical papers or creating your own virtual environment or game as your final project. This course assumes no prior experience with VR or coding, but those skills can optionally be put to use in final projects. Come prepared to question your reality!"
     },
     {
       "name": "Projects in Digital Composition",
@@ -560,9 +595,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["web_design", "design_storytelling"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["DSAS Creative Work", "Undergraduate Research", "Writing Intensive Course (WRIT)", "SCI Polymathic Contexts: Humanistic"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This course builds upon Composing Digital Media (ENGCMP 0610) by requiring students to compose original projects in a particular focal area digital media while exploring the rhetorical, poetic, and political implications of that focal area. Where students in Composing Digital Media typically learn how to compose a range of critical media objects using web-authoring languages, text, sound, images, and video, Projects in Digital Composition will give students the opportunity to focus closely on a particular theme or category of multimodal composition. As with Composing Digital Media, theories of writing, composing, design, critique, delivery, remediation, and revision are central to the coursework. The course also emphasizes the importance of self-guided skills acquisition."
     },
     {
       "name": "Critical Making",
@@ -570,9 +607,11 @@
       "dept": "ENGLIT",
       "credits": 3,
       "cats": ["web_design"],
-      "prereq": false,
-      "term": "Fall",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring",
+      "attr": ["DSAS Creative Work", "Writing Intensive Course (WRIT)", "SCI Polymathic Contexts: Humanistic"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "In this course we will engage the intellectual and practical roots of this new medial and social form and engage in our own critical making projects, utilizing scanning, modeling, and 3D printing technologies. We will begin by looking at the history and philosophy of open source software development, and then the political, social, cultural, and technological developments that have together given rise to critical maker culture. We will then learn some of the basic tools of scanning, modeling, and 3D printing. After initial modeling and printing assignments, students will form groups and develop collaborative final projects that involve materializing complex conceptual relationships from a topic of your choice and in a medium of your choice. The aim of this course is to close the circuit between creative conceptual production, social networking, and materialized object relationships. Critical making is about critically engaging and creatively remaking the world around us. By the end of the semester, you will become a critical maker!"
     },
     {
       "name": "Integrating Writing & Design",
@@ -580,9 +619,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["web_design", "design_storytelling", "technical_writing"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring, Summer",
+      "attr": ["DSAS Creative Work", "Writing Intensive Course (WRIT)", "SCI Polymathic Contexts: Humanistic"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or 0213 or 0214 or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0716 or 0718)"],
+      "desc": "This course allows students to explore the rhetorical implications of design and invites students to consider design and writing as an integral process. The class will alternate lecture/discussion sessions with studio sessions, so that students can learn how to use Adobe InDesign to create both single- and multi-paged documents for particular rhetorical contexts. Student will create a number of designed pieces of writing, including a longer multi-page document for a specific audience."
     },
     {
       "name": "Intro to Audio Storytelling",
@@ -591,8 +632,8 @@
       "credits": 3,
       "cats": ["web_design"],
       "prereq": false,
-      "term": "Fall",
-      "desc": ""
+      "term": "Currently Unavailable",
+      "desc": "Description Unavailable."
     },
     {
       "name": "Digital Narrative and Interactive Design",
@@ -600,9 +641,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["design_storytelling"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["DSAS Creative Work", "SCI Polymathic Contexts: Humanistic"],
+      "prereq_list": ["ENGCMP 0425 or HAA 0425 or ENGLIT 0512", "CS 0007 or CS 0008 or CS 0010 or CS 0011 or CS 0012 or INFSCI 0419"],
+      "desc": "This project-based course will enable students to engage with and create computational narratives and interactive projects with data, hardware and algorithms. Each collaboratively taught iteration of the course will include 3-4 of these units, such as: fabrication, interactive hardware, computational narrative, interactive data, and prototyping. Students will consider what it means to compose with computers for human audiences, and with humans for computer audiences. Designed for Digital Narrative and Interactive Design (DNID) majors to take midway through the major, it will help students consolidate the interdisciplinary knowledge they have obtained in their prerequisite courses, introduce them to examples of interdisciplinary work that will inform their later capstone projects, and give them practice in working on collaborative projects that span the humanities and information/computing fields."
     },
     {
       "name": "Game Design",
@@ -610,9 +653,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["design_storytelling", "immersive_tech"],
-      "prereq": false,
-      "term": "Fall",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring",
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044"],
+      "desc": "This course focuses on the exploration of game design in its many permutations. Join us as we critique and design all manner of entertainment and serious game. The class itself is designed as a multiplayer game experience to immerse and engage the student in game design on a fundamental level. One of the final goals of this class is for each student to have designed two separate games in their entirety. These games may be useful in the follow-up course, Immersive Media Technologies."
     },
     {
       "name": "Storyboarding",
@@ -621,8 +665,8 @@
       "credits": 3,
       "cats": ["design_storytelling"],
       "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "term": "Fall",
+      "desc": "This course explores how to harness the power of storyboards as a mode of visual communication and a digital media storytelling tool for film, TV, and emerging/new media projects (such as video games, VR, and interactive web-based media). In this class, we will use the practice of storyboarding as a method for understanding form, narrative, and genre as well as reading critical texts. Some experience with film studies is recommended (Film Analysis), but not required; no drawing experience is necessary, just interest and a willingness to learn. This is a Category III production class with critical studies elements. It counts as a Topical elective in the major and minor for the Film and Media Studies major and as an elective for the DNID major."
     },
     {
       "name": "Professional Uses of Social Media",
@@ -630,9 +674,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["design_storytelling"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring, Summer",
+      "attr": ["DSAS Creative Work", "Writing Intensive Course (WRIT)", "SCI Expression: Tech/Bus/Res Writing", "SCI Polymathic Contexts: Humanistic"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This course explores what it means to use social media as a professional in support of your own career or in support of the goals of a business or organization for which you work. By the end of this course, students will be able to describe the evolution of digital communication, significant turns, and likely future directions; discuss a variety of social media platforms and their ideal functionalities; critically discuss the professional uses of social media; identify differences between personal and professional use of social media and digital communication; develop a unique, reliable, consistent voice across a variety of platforms; develop and sharpen writing skills in order to tell stories through the contemporary lens of social media; design and implement a social media strategy; develop the adaptivity and flexibility that will allow writers to engage with new platforms and new audiences; identify and explore the rhetorical dimensions of social media; and execute significant and purposeful revision in writing."
     },
     {
       "name": "Immersive Media Technologies",
@@ -640,9 +686,10 @@
       "dept": "INFSCI",
       "credits": 3,
       "cats": ["immersive_tech"],
-      "prereq": false,
-      "term": "Fall",
-      "desc": ""
+      "prereq": true,
+      "term": "Spring",
+      "prereq_list": ["INFSCI 0410 or INFSCI 1044", "INFSCI 0510 or INFSCI 0419 or INFSCI 0019", "INFSCI 0610 or INFSCI 1070"],
+      "desc": "This course will introduce students to the design and development of immersive media technologies, such as interactive narratives, digital games, augmented/mixed reality and virtual reality experiences. Students will develop skills in user experience design, user interface design, storytelling, and animation, as well as gain technical knowledge required to program, optimize, and deploy media experiences for multiple platforms/devices."
     },
     {
       "name": "Writing Machines",
@@ -650,9 +697,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["immersive_tech"],
-      "prereq": false,
-      "term": "Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring",
+      "attr": [" Writing Intensive Course (WRIT)"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This class approaches the contemporary buzz about ChatGPT and Natural Language Generation (NLG) through a sociotechnical and historical lens, exploring automated writing through historical and contemporary writing machines: 18th century automatons, Ouija boards, combinatorial poetics, procedural algorithms, recurrent neural networks, and the transformer technology that drives cutting-edge LLMs like ChatGPT. The course is organized into units focusing on different methods of automating writing: mechanical; spiritual; procedural; statistical; simulative. Each unit teaches students historical and technical contexts of its associated automation through texts and hands-on projects."
     },
     {
       "name": "Writing with Data",
@@ -660,9 +709,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["technical_writing"],
-      "prereq": false,
+      "prereq": true,
       "term": "Fall, Spring",
-      "desc": ""
+      "attr": ["Undergraduate Research", "Writing Intensive Course (WRIT)"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0716 or 0718)"],
+      "desc": "This course is designed to allow students to engage with data in their writing and learn how to effectively write with numbers. This course is for anyone: those who love to write but are sometimes less confident working with numbers, those who love numbers but want to improve their writing, for people who love numbers and writing rather equally, for scientists, for artists, for people who anticipate working with a lot of data in their career, etc. Students will work with a dataset of their choosing and develop several pieces reliant on quantification for both lay and specialized audiences. Through these writing projects and through classroom activities, students will learn about how to find data to use for their writing, how to plan effective utilization of this data in a broader argument, how to responsibly and effectively use word choice and syntax to convey quantified material, how to organize writing reliant on data for both lay and specialized audiences, and how to incorporate data visualization for purposes of understanding and persuasion. "
     },
     {
       "name": "Topics in Public and Professional Writing",
@@ -670,9 +721,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["technical_writing"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "attr": ["Writing Intensive Course (WRIT)"],
+      "prereq_list": [" ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This topics course is intended for students beginning the public and professional writing certificate, and as a writing-intensive course for students fulfilling general education requirements or interested in writing as a subject as well as a mode of instruction. The course will focus on varied topics, addressing different forms and environments for public and professional writing."
     },
     {
       "name": "Writing Arguments",
@@ -680,9 +733,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["technical_writing"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring, Summer",
+      "attr": ["Writing Intensive Course (WRIT)"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "Students will practice composing arguments across a variety of forms, genres, and technologies (written, visual, digital) in order to develop and hone their persuasive language skills. As part of this practice, students will have the opportunity to design and participate in intellectual conversations on topics of social interest and to compose their own examples of public persuasive discourse. Writing Arguments would be especially appropriate for students headed to law school, graduate school, careers in writing, and/or advanced courses in Public and Professional Writing."
     },
     {
       "name": "Writing for Change",
@@ -690,9 +745,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["technical_writing"],
-      "prereq": false,
-      "term": "Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring",
+      "attr": ["Undergraduate Research", "Writing Intensive Course (WRIT)", "Global Studies", "Human Rights and Social Justice"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or FP (0003 or 0006)"],
+      "desc": "This course is an opportunity for students to examine and produce writing that engages in advocacy, solidarity, social critique, and/or social justice. Students will explore theories of persuasive writing for public audiences, as well as argumentative strategies more broadly. Students will define the subject of a core project for the term, and move beyond understanding an issue to understanding various discourse communities that generate writing on that topic, how those organizations represent themselves, and how they define an audience. Our theoretical discussion will be balanced by a more pragmatic look at the language of social change, and how various writing forms, produced by nonprofits, activist groups, international organizations and coalitions, as well as socially engaged journalism, inform, persuade, and engage the public. Students in Writing for Change can expect to compose traditional essays as well as public writing in print, digital, visual, and a variety of other forms of persuasive communication."
     },
     {
       "name": "Writing for the Public",
@@ -700,9 +757,11 @@
       "dept": "ENGCMP",
       "credits": 3,
       "cats": ["technical_writing"],
-      "prereq": false,
-      "term": "Fall, Spring",
-      "desc": ""
+      "prereq": true,
+      "term": "Fall, Spring, Summer",
+      "attr": ["Undergraduate Research", "Writing Intensive Course (WRIT)", "Global Studies", "Undergraduate Global Health"],
+      "prereq_list": ["ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212 or 0213 or 0214) or ENGFLM 0210 or FP (0003 or 0006) or (ENGR 0012 or 0712 or 0715 or 0718) or ENGR 0716"],
+      "desc": "This course explores the theory and practice of writing that serves the public interest, including writing for the nonprofit and the governmental sectors of American society. The course will explore the ethics of writing for the public, the impact of rhetorical contexts on writing, and the ways in which writing and revision can allow us to understand a problem or issue in a new way. Students can expect to read examples of writing for the public, conduct significant research, and write in different genres."
     },
     {
       "name": "Media Relations",
@@ -711,8 +770,8 @@
       "credits": 3,
       "cats": ["technical_writing"],
       "prereq": false,
-      "term": "Spring",
-      "desc": ""
+      "term": "Fall, Spring",
+      "desc": "This course will focus on what defines media relations professionals: Who are they? What do they do? How do they get their stories? What tools are needed in today¿s media environment? You will learn how to best engage, connect and tell clients¿ stories and brand messages to a multitude of media outlets, using a wide variety of strategic multimedia tactics and methods. One critical skill both expected and developed in media relations is the ability to write well since most of the work communicating with journalists and other publics involves clear, concise, and persuasive writing."
     },
     {
       "name": "Topics in Non-Fiction: Electronic Media",
@@ -720,9 +779,10 @@
       "dept": "ENGWRT",
       "credits": 3,
       "cats": ["technical_writing"],
-      "prereq": false,
-      "term": "Fall",
-      "desc": ""
+      "prereq": true,
+      "term": "Currently Unavailable",
+      "prereq_list": ["ENGWRT 0520 or 0530 or 0610"],
+      "desc": "This course concerns itself with the varieties of writing for the electronic media, and with related matters of interest; form and technique, contemporary production, ethical and legal matters, and the general relation of the writer in this field to his/her society."
     }
   ]
 }

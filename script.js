@@ -193,7 +193,7 @@ const FIELDS = [
     courses:['ENGCMP 1430','INFSCI 1420'],
     careers:['UX Researcher','QA Analyst','Product Tester','Product Manager'] },
 
-  { id:'development', label:'Development',
+  { id:'development', label:'Development + Web & Product Design',
     icon:'Disc_Icon6.svg',
     desc:'Building and coding digital products, from front-end interfaces to back-end systems, using languages and computational frameworks.',
     skills:['Programming Fundamentals','HTML/CSS','Python','Database Design'],
@@ -214,7 +214,7 @@ const FIELDS = [
     courses:['ENGCMP 1104','INFSCI 1460'],
     careers:['Product Manager','Product Lead','Solutions Engineer','Technical Consultant'] },
 
-  { id:'design_storytelling', label:'Design & Storytelling',
+  { id:'design_storytelling', label:'Design & Storytelling + Technical Writing',
     icon:'Disc_Icon2.svg',
     desc:'Applying narrative thinking to design, user journeys, and digital communication.',
     skills:['Narrative Design','Storytelling','Voice & Tone','Storyboarding'],

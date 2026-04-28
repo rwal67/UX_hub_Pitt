@@ -49,4 +49,4 @@ As for small content changes (e.g. adding a course, updating a description), fil
 ## Transferring Ownership
 
 Should this repo find new management or a department GitHub organization, go to Settings -> Transfer repository. 
-For issues directly concerning this repo, Rory Walsh can be contacted at rorywalsh425@gmail.com.
+For issues directly concerning this repo, please contact a team member at their listed email. 
